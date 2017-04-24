@@ -62,6 +62,10 @@ header a:hover {
   text-decoration: none;
 }
 
+header img {
+  max-width: 100%;
+}
+
 .navbar,
 .dropdown-menu,
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
@@ -167,4 +171,18 @@ footer a:hover {
 .title,
 .author {
   font-size: 0.9em;
+}
+
+.item {
+  padding: 10px 0 30px 0;
+}
+
+.carousel-indicators {
+  bottom: 0;
+  margin-bottom: 5px;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background: none;
 }
