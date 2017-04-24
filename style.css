@@ -146,6 +146,7 @@ body {
 
 footer {
   background: linear-gradient(to top, #222, #203e42);
+  background: yellow;
   padding-top: 15px;
 }
 
